@@ -1,0 +1,22 @@
+# Keys match the effective default node names in robot_system.launch.py.
+# Relative topic/service names are placed inside the launch namespace.
+atil_1:
+  ros__parameters:
+    publish_frequency: 1.0
+    topic_name: robot_status
+
+robot_status_subscriber:
+  ros__parameters:
+    topic_name: robot_status
+
+add_two_ints_server:
+  ros__parameters:
+    service_name: add_two_ints
+
+add_two_ints_client:
+  ros__parameters:
+    service_name: add_two_ints
+    a: 3
+    b: 5
+    repeat: true
+    request_period: 2.0
