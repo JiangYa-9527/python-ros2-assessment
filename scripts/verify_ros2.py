@@ -121,12 +121,18 @@ def verify(args):
 
         topic = full_name("robot_status")
         service = full_name("add_two_ints")
-        topics = command("topic", "list", "-t", "--no-daemon", "--spin-time", "1")
-        services = command("service", "list", "-t", "--no-daemon", "--spin-time", "1")
-        if f"{topic} [robot_interfaces/msg/RobotStatus]" not in topics.splitlines():
-            raise RuntimeError(f"custom topic/type missing:\n{topics}")
-        if f"{service} [robot_interfaces/srv/AddTwoInts]" not in services.splitlines():
-            raise RuntimeError(f"custom service/type missing:\n{services}")
+        # DDS discovers endpoints asynchronously, independently of node names.
+        # Keep checking for the expected types until a bounded discovery deadline.
+        type_deadline = min(deadline, time.monotonic() + 18)
+        while True:
+            topics = command("topic", "list", "-t", "--no-daemon", "--spin-time", "2")
+            services = command("service", "list", "-t", "--no-daemon", "--spin-time", "2")
+            topic_ready = f"{topic} [robot_interfaces/msg/RobotStatus]" in topics.splitlines()
+            service_ready = f"{service} [robot_interfaces/srv/AddTwoInts]" in services.splitlines()
+            if topic_ready and service_ready:
+                break
+            if time.monotonic() >= type_deadline:
+                raise RuntimeError(f"custom topic/service types missing:\n{topics}\n{services}")
         print("PASS: custom topic and service types discovered", flush=True)
 
         output = command("topic", "echo", topic, "robot_interfaces/msg/RobotStatus", "--once", timeout=10)
