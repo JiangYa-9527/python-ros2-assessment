@@ -1,0 +1,42 @@
+name: Python and ROS2 checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check examples and source structure
+        run: python3 -B -m unittest discover -s tests -v
+
+  ros2:
+    runs-on: ubuntu-24.04
+    container: ros:jazzy-ros-base
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build dependencies
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends build-essential cmake python3-colcon-common-extensions python3-yaml
+      - name: Build custom interfaces and nodes
+        run: bash scripts/build_ros2.sh
+      - name: Verify default launch and communication
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          source exam2/ros2_ws/install/setup.bash
+          python3 scripts/verify_ros2.py --timeout 60
+      - name: Verify namespace and node name overrides
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          source exam2/ros2_ws/install/setup.bash
+          python3 scripts/verify_ros2.py --ns robot2 --node-name renamed_publisher --timeout 60
