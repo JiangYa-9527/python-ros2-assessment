@@ -1,0 +1,9 @@
+Rerun with bounded direct parameter discovery (no daemon).
+Validation UTC: 2026-10-27 15:30:50
+PASS: four expected nodes discovered
+PASS: custom topic and service types discovered
+PASS: received valid RobotStatus fields
+PASS: service returns 8 and YAML publish_frequency is 1.0
+PASS: subscriber callback and launched client response observed
+PASS: measured publication rate 1.000 Hz
+ROS 2 verification passed (ROS_DOMAIN_ID=42).

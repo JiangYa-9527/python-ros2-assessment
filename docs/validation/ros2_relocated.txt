@@ -1,0 +1,342 @@
+Clean relocated source path (contains spaces): /tmp/ros2 assessment relocated.njhu1T
+No build/install/log directories were copied.
+Validation UTC: 2026-10-27 15:29:08
+test_constructor_initializes_displayed_values (test_exam1.BookTests.test_constructor_initializes_displayed_values) ... ok
+test_required_example (test_exam1.BookTests.test_required_example) ... ok
+test_title_keeps_spaces_and_zero_stock (test_exam1.BookTests.test_title_keeps_spaces_and_zero_stock) ... ok
+test_ascii_letters_numbers_and_punctuation (test_exam1.CharacterCountTests.test_ascii_letters_numbers_and_punctuation) ... ok
+test_empty_string (test_exam1.CharacterCountTests.test_empty_string) ... ok
+test_spaces_and_tab_are_counted (test_exam1.CharacterCountTests.test_spaces_and_tab_are_counted) ... ok
+test_unicode_is_other_not_ascii_letter_or_digit (test_exam1.CharacterCountTests.test_unicode_is_other_not_ascii_letter_or_digit) ... ok
+test_extra_scores_are_reported (test_exam1.ScoresTests.test_extra_scores_are_reported) ... ok
+test_missing_scores_are_reported (test_exam1.ScoresTests.test_missing_scores_are_reported) ... ok
+test_multiple_lines_commas_and_duplicates (test_exam1.ScoresTests.test_multiple_lines_commas_and_duplicates) ... ok
+test_non_integer_is_reported (test_exam1.ScoresTests.test_non_integer_is_reported) ... ok
+test_required_example (test_exam1.ScoresTests.test_required_example) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.156s
+
+OK
+Starting >>> robot_interfaces
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+-- Configuring done (4.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/build/robot_interfaces
+[  2%] Generating type hashes for ROS interfaces
+[  4%] Generating Rust code for ROS interfaces
+[  4%] Built target ament_cmake_python_symlink_robot_interfaces
+[  4%] Built target robot_interfaces__rosidl_generator_type_description
+[  6%] Generating C code for ROS interfaces
+running egg_info
+creating robot_interfaces.egg-info
+[  8%] Generating C++ code for ROS interfaces
+[  8%] Built target robot_interfaces__rs
+writing robot_interfaces.egg-info/PKG-INFO
+writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+writing top-level names to robot_interfaces.egg-info/top_level.txt
+writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_robot_interfaces_egg
+[  8%] Built target robot_interfaces__cpp
+[ 15%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/add_two_ints__type_support.c.o
+[ 15%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/robot_status__functions.c.o
+[ 15%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/robot_status__type_support.c.o
+[ 17%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/add_two_ints__description.c.o
+[ 20%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/robot_status__description.c.o
+[ 22%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/add_two_ints__functions.c.o
+[ 24%] Linking C shared library librobot_interfaces__rosidl_generator_c.so
+[ 24%] Built target robot_interfaces__rosidl_generator_c
+[ 33%] Generating C++ type support for eProsima Fast-RTPS
+[ 33%] Generating C type support for eProsima Fast-RTPS
+[ 33%] Generating C introspection for ROS interfaces
+[ 33%] Generating C type support dispatch for ROS interfaces
+[ 35%] Generating C++ introspection for ROS interfaces
+[ 37%] Generating C++ type support dispatch for ROS interfaces
+[ 42%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/add_two_ints__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/robot_status__type_support.cpp.o
+[ 46%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/robot_status__type_support.cpp.o
+[ 46%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/add_two_ints__type_support.cpp.o
+[ 48%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/add_two_ints__type_support.cpp.o
+[ 51%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.o
+[ 55%] Building C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/robot_status__type_support.c.o
+[ 53%] Building C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/add_two_ints__type_support.c.o
+[ 57%] Linking CXX shared library librobot_interfaces__rosidl_typesupport_c.so
+[ 60%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o
+[ 62%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o
+[ 64%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/robot_status__type_support_c.cpp.o
+[ 66%] Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o
+[ 68%] Linking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so
+[ 68%] Built target robot_interfaces__rosidl_typesupport_c
+[ 68%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[ 71%] Linking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so
+[ 73%] Linking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[ 75%] Linking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[ 75%] Built target robot_interfaces__rosidl_typesupport_cpp
+[ 75%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[ 77%] Linking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[ 77%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[ 77%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target robot_interfaces
+[ 80%] Generating Python code for ROS interfaces
+[ 80%] Built target robot_interfaces__py
+[ 84%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_robot_status_s.c.o
+[ 84%] Building C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_add_two_ints_s.c.o
+[ 86%] Linking C shared library librobot_interfaces__rosidl_generator_py.so
+[ 86%] Built target robot_interfaces__rosidl_generator_py
+[ 93%] Building C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 93%] Building C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 93%] Building C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o
+[ 97%] Linking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so
+[ 97%] Linking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[100%] Linking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[100%] Built target robot_interfaces_s__rosidl_typesupport_c
+[100%] Built target robot_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target robot_interfaces_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/RobotStatus.json
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/AddTwoInts.json
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__functions.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__struct.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__type_support.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_status.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/add_two_ints.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__functions.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__struct.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__type_support.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__builder.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__struct.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__traits.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__type_support.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_status.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/add_two_ints.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__builder.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__struct.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__traits.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__type_support.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-1.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-1.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/__init__.py
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_robot_status.py
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_robot_status_s.c
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_add_two_ints.py
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_add_two_ints_s.c
+-- Up-to-date symlink: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/Cargo.toml
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/build.rs
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/src/lib.rs
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/src/msg.rs
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/src/msg/rmw.rs
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv.rs
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv/rmw.rs
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/RobotStatus.idl
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/AddTwoInts.idl
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/RobotStatus.msg
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/AddTwoInts.srv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+-- Symlinking: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces'...
+Compiling '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py'...
+Listing '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg'...
+Compiling '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/__init__.py'...
+Compiling '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_robot_status.py'...
+Listing '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv'...
+Compiling '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py'...
+Compiling '/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_add_two_ints.py'...
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+Finished <<< robot_interfaces [8.59s]
+Starting >>> robot_nodes
+running develop
+running egg_info
+creating robot_nodes.egg-info
+writing robot_nodes.egg-info/PKG-INFO
+writing dependency_links to robot_nodes.egg-info/dependency_links.txt
+writing entry points to robot_nodes.egg-info/entry_points.txt
+writing requirements to robot_nodes.egg-info/requires.txt
+writing top-level names to robot_nodes.egg-info/top_level.txt
+writing manifest file 'robot_nodes.egg-info/SOURCES.txt'
+reading manifest file 'robot_nodes.egg-info/SOURCES.txt'
+writing manifest file 'robot_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/lib/python3.12/site-packages/robot-nodes.egg-link (link to .)
+Installing add_two_ints_client script to /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/lib/robot_nodes
+Installing add_two_ints_server script to /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/lib/robot_nodes
+Installing robot_status_publisher script to /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/lib/robot_nodes
+Installing robot_status_subscriber script to /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/lib/robot_nodes
+
+Installed /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/build/robot_nodes
+running symlink_data
+creating /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/ament_index
+creating /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/ament_index/resource_index
+creating /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/ament_index/resource_index/packages
+symbolically linking /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/build/robot_nodes/resource/robot_nodes -> /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/ament_index/resource_index/packages
+symbolically linking /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/build/robot_nodes/package.xml -> /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/robot_nodes
+creating /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/robot_nodes/launch
+symbolically linking /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/build/robot_nodes/launch/robot_system.launch.py -> /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/robot_nodes/launch
+creating /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/robot_nodes/config
+symbolically linking /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/build/robot_nodes/config/params.yaml -> /tmp/ros2 assessment relocated.njhu1T/exam2/ros2_ws/install/robot_nodes/share/robot_nodes/config
+Finished <<< robot_nodes [1.48s]
+
+Summary: 2 packages finished [10.2s]
+PASS: four expected nodes discovered
+PASS: custom topic and service types discovered
+PASS: received valid RobotStatus fields
+--- captured ros2 launch output ---
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-23-29-20-103857-DonaldTrump-7023
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_status_publisher-1]: process started with pid [7030]
+[INFO] [robot_status_subscriber-2]: process started with pid [7031]
+[INFO] [add_two_ints_server-3]: process started with pid [7032]
+[INFO] [add_two_ints_client-4]: process started with pid [7033]
+[add_two_ints_client-4] [INFO] [1793114960.416471217] [robot1.add_two_ints_client]: Client using service add_two_ints
+[robot_status_publisher-1] [INFO] [1793114960.419553095] [robot1.atil_1]: Publishing /robot1/robot_status at 1 Hz
+[robot_status_subscriber-2] [INFO] [1793114960.423812836] [robot1.robot_status_subscriber]: Subscribed to /robot1/robot_status
+[add_two_ints_server-3] [INFO] [1793114960.431857645] [robot1.add_two_ints_server]: Service ready: add_two_ints
+[robot_status_publisher-1] [INFO] [1793114961.400336419] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(0.00, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114961.400626446] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(0.00, 0.00)
+[add_two_ints_server-3] [INFO] [1793114962.396385858] [robot1.add_two_ints_server]: 3 + 5 = 8
+[add_two_ints_client-4] [INFO] [1793114962.397373689] [robot1.add_two_ints_client]: Result: 3 + 5 = 8
+[robot_status_publisher-1] [INFO] [1793114962.400428212] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(0.50, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114962.400650439] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(0.50, 0.00)
+[robot_status_publisher-1] [INFO] [1793114963.400308194] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(1.00, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114963.400485832] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(1.00, 0.00)
+[add_two_ints_server-3] [INFO] [1793114964.396316479] [robot1.add_two_ints_server]: 3 + 5 = 8
+[add_two_ints_client-4] [INFO] [1793114964.397505414] [robot1.add_two_ints_client]: Result: 3 + 5 = 8
+[robot_status_publisher-1] [INFO] [1793114964.400435666] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(1.50, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114964.400695395] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(1.50, 0.00)
+[robot_status_publisher-1] [INFO] [1793114965.411873867] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(2.00, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114965.413585347] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(2.00, 0.00)
+[add_two_ints_server-3] [INFO] [1793114966.242429761] [robot1.add_two_ints_server]: 3 + 5 = 8
+[add_two_ints_server-3] [INFO] [1793114966.399741144] [robot1.add_two_ints_server]: 3 + 5 = 8
+[add_two_ints_client-4] [INFO] [1793114966.400875263] [robot1.add_two_ints_client]: Result: 3 + 5 = 8
+[robot_status_publisher-1] [INFO] [1793114966.405005007] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(2.50, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114966.405123095] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(2.50, 0.00)
+[robot_status_publisher-1] [INFO] [1793114967.401493227] [robot1.atil_1]: Published name=robot_demo, speed=0.50, position=(3.00, 0.00)
+[robot_status_subscriber-2] [INFO] [1793114967.401764267] [robot1.robot_status_subscriber]: Received name=robot_demo, speed=0.50, position=(3.00, 0.00)
+
+FAIL: ros2 param get /robot1/atil_1 publish_frequency failed:
+Node not found
+
+
+Rerun after fixing verifier CLI parameter discovery to bypass daemon and wait/retry.
+Original relocated build/install reused; original project overlay is not sourced.
+Validation UTC: 2026-10-27 15:31:13
+PASS: four expected nodes discovered
+PASS: custom topic and service types discovered
+PASS: received valid RobotStatus fields
+PASS: service returns 8 and YAML publish_frequency is 1.0
+PASS: subscriber callback and launched client response observed
+PASS: measured publication rate 1.000 Hz
+ROS 2 verification passed (ROS_DOMAIN_ID=37).
+
+PASS: fresh relocated build, exam1 tests and real communication all verified.
